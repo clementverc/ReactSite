@@ -7,21 +7,14 @@ import List from './list'
 import Footer from './footer'
 
 import './index.scss'
-const list = [{
-  name: 'Cyril',
-  age: 31
-}, {
-  name: 'Echo',
-  age: 24
-}, {
-  name: 'Guillaume',
-  age: 12
-}]
+
 const App = () => (
-  <Search />
+  //<Search />
+  <List />
 )
 
 ReactDOM.render(<Menu />, document.getElementById('menu'))
 ReactDOM.render(<App />, document.getElementById('app'))
+//ReactDOM.render(<List />, document.getElementById('list'))
 ReactDOM.render(<Footer />, document.getElementById('footer'))
 
